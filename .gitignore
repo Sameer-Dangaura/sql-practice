@@ -1,0 +1,78 @@
+# ===============================
+# Database Files
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# ===============================
+# Database Backups / Dumps
+# ===============================
+*.bak
+*.backup
+*.dump
+*.dmp
+*.sql.gz
+*.tar.gz
+
+# ===============================
+# MySQL Workbench Files (Cache/Temp)
+# ===============================
+*.mwb.bak
+*.mwb.tmp
+
+# ===============================
+# Environment / Credentials
+# ===============================
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# OS / System Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Editor / IDE Settings
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Temporary Files
+# ===============================
+*~
+*.tmp
+*.temp
+
+# ===============================
+# Specific Files/Folders
+# ===============================
+notes
+
+# ===============================
+# Allow Important Files
+# ===============================
+# Keep main SQL scripts
+!*.sql
+
+# Keep main MySQL Workbench model
+!*.mwb
+
+# Keep exported diagrams
+!*.png
+!*.jpg
